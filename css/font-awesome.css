@@ -1,0 +1,1348 @@
+/*!
+ *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+.fa {
+  display: inline-block;
+  font-size: 16px;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  overflow: hidden;
+  vertical-align: text-top;
+  background-image: url("../images/FontAwesome.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.fa.fa-white {
+  background-image: url("../images/FontAwesome-white.png");
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 22px;
+  background-image: url("../images/FontAwesome-lg.png");
+}
+.fa-lg.fa-white {
+  background-image: url("../images/FontAwesome-lg-white.png");
+}
+.fa-2x {
+  font-size: 32px;
+  background-image: url("../images/FontAwesome-2x.png");
+}
+.fa-2x.fa-white {
+  background-image: url("../images/FontAwesome-2x-white.png");
+}
+.fa-3x {
+  font-size: 48px;
+  background-image: url("../images/FontAwesome-3x.png");
+}
+.fa-3x.fa-white {
+  background-image: url("../images/FontAwesome-3x-white.png");
+}
+.fa-4x {
+  font-size: 64px;
+  background-image: url("../images/FontAwesome-4x.png");
+}
+.fa-4x.fa-white {
+  background-image: url("../images/FontAwesome-4x-white.png");
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa.pull-left {
+  margin-right: .3em;
+}
+.fa.pull-right {
+  margin-left: .3em;
+}
+.fa-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.fa-glass {
+  background-position: -12em -16em;
+}
+.fa-music {
+  background-position: -20em -22em;
+}
+.fa-search {
+  background-position: -26em -26em;
+}
+.fa-envelope-o {
+  background-position: -32em -10em;
+}
+.fa-heart {
+  background-position: -36em -16em;
+}
+.fa-star {
+  background-position: -4em -30em;
+}
+.fa-star-o {
+  background-position: -2em -30em;
+}
+.fa-user {
+  background-position: -22em -34em;
+}
+.fa-film {
+  background-position: 0 -14em;
+}
+.fa-th-large {
+  background-position: -2em -32em;
+}
+.fa-th {
+  background-position: -6em -32em;
+}
+.fa-th-list {
+  background-position: -4em -32em;
+}
+.fa-check {
+  background-position: -30em -6em;
+}
+.fa-times {
+  background-position: -24em -32em;
+}
+.fa-search-plus {
+  background-position: -24em -26em;
+}
+.fa-search-minus {
+  background-position: -22em -26em;
+}
+.fa-power-off {
+  background-position: -22em -24em;
+}
+.fa-signal {
+  background-position: -2em -28em;
+}
+.fa-gear,
+.fa-cog {
+  background-position: -28em -8em;
+}
+.fa-trash-o {
+  background-position: -28em -32em;
+}
+.fa-home {
+  background-position: -38em -16em;
+}
+.fa-file-o {
+  background-position: -30em -12em;
+}
+.fa-clock-o {
+  background-position: -14em -8em;
+}
+.fa-road {
+  background-position: -10em -26em;
+}
+.fa-download {
+  background-position: -20em -10em;
+}
+.fa-arrow-circle-o-down {
+  background-position: -2em -2em;
+}
+.fa-arrow-circle-o-up {
+  background-position: -8em -2em;
+}
+.fa-inbox {
+  background-position: -4em -18em;
+}
+.fa-play-circle-o {
+  background-position: -8em -24em;
+}
+.fa-rotate-right,
+.fa-repeat {
+  background-position: -4em -26em;
+}
+.fa-refresh {
+  background-position: 0 -26em;
+}
+.fa-list-alt {
+  background-position: -6em -20em;
+}
+.fa-lock {
+  background-position: -16em -20em;
+}
+.fa-flag {
+  background-position: -12em -14em;
+}
+.fa-headphones {
+  background-position: -32em -16em;
+}
+.fa-volume-off {
+  background-position: -34em -34em;
+}
+.fa-volume-down {
+  background-position: -32em -34em;
+}
+.fa-volume-up {
+  background-position: -36em -34em;
+}
+.fa-qrcode {
+  background-position: -28em -24em;
+}
+.fa-barcode {
+  background-position: -38em -2em;
+}
+.fa-tag {
+  background-position: -30em -30em;
+}
+.fa-tags {
+  background-position: -32em -30em;
+}
+.fa-book {
+  background-position: -16em -4em;
+}
+.fa-bookmark {
+  background-position: -20em -4em;
+}
+.fa-print {
+  background-position: -24em -24em;
+}
+.fa-camera {
+  background-position: 0 -6em;
+}
+.fa-font {
+  background-position: -28em -14em;
+}
+.fa-bold {
+  background-position: -12em -4em;
+}
+.fa-italic {
+  background-position: -16em -18em;
+}
+.fa-text-height {
+  background-position: -38em -30em;
+}
+.fa-text-width {
+  background-position: 0 -32em;
+}
+.fa-align-left {
+  background-position: -8em 0;
+}
+.fa-align-center {
+  background-position: -4em 0;
+}
+.fa-align-right {
+  background-position: -10em 0;
+}
+.fa-align-justify {
+  background-position: -6em 0;
+}
+.fa-list {
+  background-position: -12em -20em;
+}
+.fa-dedent,
+.fa-outdent {
+  background-position: -22em -22em;
+}
+.fa-indent {
+  background-position: -6em -18em;
+}
+.fa-video-camera {
+  background-position: -26em -34em;
+}
+.fa-picture-o {
+  background-position: 0 -24em;
+}
+.fa-pencil {
+  background-position: -34em -22em;
+}
+.fa-map-marker {
+  background-position: -34em -20em;
+}
+.fa-adjust {
+  background-position: 0 0;
+}
+.fa-tint {
+  background-position: -26em -32em;
+}
+.fa-edit,
+.fa-pencil-square-o {
+  background-position: -30em -22em;
+}
+.fa-share-square-o {
+  background-position: -28em -26em;
+}
+.fa-check-square-o {
+  background-position: -26em -6em;
+}
+.fa-arrows {
+  background-position: -28em -2em;
+}
+.fa-step-backward {
+  background-position: -6em -30em;
+}
+.fa-fast-backward {
+  background-position: -22em -12em;
+}
+.fa-backward {
+  background-position: -32em -2em;
+}
+.fa-play {
+  background-position: -12em -24em;
+}
+.fa-pause {
+  background-position: -28em -22em;
+}
+.fa-stop {
+  background-position: -12em -30em;
+}
+.fa-forward {
+  background-position: -30em -14em;
+}
+.fa-fast-forward {
+  background-position: -24em -12em;
+}
+.fa-step-forward {
+  background-position: -8em -30em;
+}
+.fa-eject {
+  background-position: -26em -10em;
+}
+.fa-chevron-left {
+  background-position: -2em -8em;
+}
+.fa-chevron-right {
+  background-position: -4em -8em;
+}
+.fa-plus-circle {
+  background-position: -14em -24em;
+}
+.fa-minus-circle {
+  background-position: -6em -22em;
+}
+.fa-times-circle {
+  background-position: -22em -32em;
+}
+.fa-check-circle {
+  background-position: -24em -6em;
+}
+.fa-question-circle {
+  background-position: -30em -24em;
+}
+.fa-info-circle {
+  background-position: -8em -18em;
+}
+.fa-crosshairs {
+  background-position: -10em -10em;
+}
+.fa-times-circle-o {
+  background-position: -20em -32em;
+}
+.fa-check-circle-o {
+  background-position: -22em -6em;
+}
+.fa-ban {
+  background-position: -34em -2em;
+}
+.fa-arrow-left {
+  background-position: -16em -2em;
+}
+.fa-arrow-right {
+  background-position: -18em -2em;
+}
+.fa-arrow-up {
+  background-position: -20em -2em;
+}
+.fa-arrow-down {
+  background-position: -14em -2em;
+}
+.fa-mail-forward,
+.fa-share {
+  background-position: -32em -26em;
+}
+.fa-expand {
+  background-position: -8em -12em;
+}
+.fa-compress {
+  background-position: -4em -10em;
+}
+.fa-plus {
+  background-position: -20em -24em;
+}
+.fa-minus {
+  background-position: -12em -22em;
+}
+.fa-asterisk {
+  background-position: -30em -2em;
+}
+.fa-exclamation-circle {
+  background-position: -2em -12em;
+}
+.fa-gift {
+  background-position: -2em -16em;
+}
+.fa-leaf {
+  background-position: -28em -18em;
+}
+.fa-fire {
+  background-position: -6em -14em;
+}
+.fa-eye {
+  background-position: -16em -12em;
+}
+.fa-eye-slash {
+  background-position: -14em -12em;
+}
+.fa-warning,
+.fa-exclamation-triangle {
+  background-position: -4em -12em;
+}
+.fa-plane {
+  background-position: -6em -24em;
+}
+.fa-calendar {
+  background-position: -36em -4em;
+}
+.fa-random {
+  background-position: -38em -24em;
+}
+.fa-comment {
+  background-position: -36em -8em;
+}
+.fa-magnet {
+  background-position: -28em -20em;
+}
+.fa-chevron-up {
+  background-position: -6em -8em;
+}
+.fa-chevron-down {
+  background-position: 0 -8em;
+}
+.fa-retweet {
+  background-position: -8em -26em;
+}
+.fa-shopping-cart {
+  background-position: -36em -26em;
+}
+.fa-folder {
+  background-position: -26em -14em;
+}
+.fa-folder-open {
+  background-position: -24em -14em;
+}
+.fa-arrows-v {
+  background-position: -26em -2em;
+}
+.fa-arrows-h {
+  background-position: -24em -2em;
+}
+.fa-bar-chart-o {
+  background-position: -36em -2em;
+}
+.fa-twitter-square {
+  background-position: -2em -34em;
+}
+.fa-facebook-square {
+  background-position: -18em -12em;
+}
+.fa-camera-retro {
+  background-position: -38em -4em;
+}
+.fa-key {
+  background-position: -20em -18em;
+}
+.fa-gears,
+.fa-cogs {
+  background-position: -30em -8em;
+}
+.fa-comments {
+  background-position: 0 -10em;
+}
+.fa-thumbs-o-up {
+  background-position: -14em -32em;
+}
+.fa-thumbs-o-down {
+  background-position: -12em -32em;
+}
+.fa-star-half {
+  background-position: 0 -30em;
+}
+.fa-heart-o {
+  background-position: -34em -16em;
+}
+.fa-sign-out {
+  background-position: 0 -28em;
+}
+.fa-linkedin-square {
+  background-position: 0 -20em;
+}
+.fa-thumb-tack {
+  background-position: -8em -32em;
+}
+.fa-external-link {
+  background-position: -12em -12em;
+}
+.fa-sign-in {
+  background-position: -38em -26em;
+}
+.fa-trophy {
+  background-position: -32em -32em;
+}
+.fa-github-square {
+  background-position: -6em -16em;
+}
+.fa-upload {
+  background-position: -16em -34em;
+}
+.fa-lemon-o {
+  background-position: -30em -18em;
+}
+.fa-phone {
+  background-position: -38em -22em;
+}
+.fa-square-o {
+  background-position: -30em -28em;
+}
+.fa-bookmark-o {
+  background-position: -18em -4em;
+}
+.fa-phone-square {
+  background-position: -36em -22em;
+}
+.fa-twitter {
+  background-position: -4em -34em;
+}
+.fa-facebook {
+  background-position: -20em -12em;
+}
+.fa-github {
+  background-position: -8em -16em;
+}
+.fa-unlock {
+  background-position: -14em -34em;
+}
+.fa-credit-card {
+  background-position: -6em -10em;
+}
+.fa-rss {
+  background-position: -16em -26em;
+}
+.fa-hdd-o {
+  background-position: -30em -16em;
+}
+.fa-bullhorn {
+  background-position: -30em -4em;
+}
+.fa-bell {
+  background-position: -6em -4em;
+}
+.fa-certificate {
+  background-position: -18em -6em;
+}
+.fa-hand-o-right {
+  background-position: -26em -16em;
+}
+.fa-hand-o-left {
+  background-position: -24em -16em;
+}
+.fa-hand-o-up {
+  background-position: -28em -16em;
+}
+.fa-hand-o-down {
+  background-position: -22em -16em;
+}
+.fa-arrow-circle-left {
+  background-position: 0 -2em;
+}
+.fa-arrow-circle-right {
+  background-position: -10em -2em;
+}
+.fa-arrow-circle-up {
+  background-position: -12em -2em;
+}
+.fa-arrow-circle-down {
+  background-position: -38em 0;
+}
+.fa-globe {
+  background-position: -14em -16em;
+}
+.fa-wrench {
+  background-position: -4em -36em;
+}
+.fa-tasks {
+  background-position: -34em -30em;
+}
+.fa-filter {
+  background-position: -2em -14em;
+}
+.fa-briefcase {
+  background-position: -22em -4em;
+}
+.fa-arrows-alt {
+  background-position: -22em -2em;
+}
+.fa-group,
+.fa-users {
+  background-position: -24em -34em;
+}
+.fa-chain,
+.fa-link {
+  background-position: -38em -18em;
+}
+.fa-cloud {
+  background-position: -20em -8em;
+}
+.fa-flask {
+  background-position: -14em -14em;
+}
+.fa-cut,
+.fa-scissors {
+  background-position: -20em -26em;
+}
+.fa-copy,
+.fa-files-o {
+  background-position: -38em -12em;
+}
+.fa-paperclip {
+  background-position: -26em -22em;
+}
+.fa-save,
+.fa-floppy-o {
+  background-position: -18em -14em;
+}
+.fa-square {
+  background-position: -32em -28em;
+}
+.fa-bars {
+  background-position: 0 -4em;
+}
+.fa-list-ul {
+  background-position: -10em -20em;
+}
+.fa-list-ol {
+  background-position: -8em -20em;
+}
+.fa-strikethrough {
+  background-position: -14em -30em;
+}
+.fa-underline {
+  background-position: -8em -34em;
+}
+.fa-table {
+  background-position: -24em -30em;
+}
+.fa-magic {
+  background-position: -26em -20em;
+}
+.fa-truck {
+  background-position: -34em -32em;
+}
+.fa-pinterest {
+  background-position: -4em -24em;
+}
+.fa-pinterest-square {
+  background-position: -2em -24em;
+}
+.fa-google-plus-square {
+  background-position: -16em -16em;
+}
+.fa-google-plus {
+  background-position: -18em -16em;
+}
+.fa-money {
+  background-position: -16em -22em;
+}
+.fa-caret-down {
+  background-position: -2em -6em;
+}
+.fa-caret-up {
+  background-position: -16em -6em;
+}
+.fa-caret-left {
+  background-position: -4em -6em;
+}
+.fa-caret-right {
+  background-position: -6em -6em;
+}
+.fa-columns {
+  background-position: -32em -8em;
+}
+.fa-unsorted,
+.fa-sort {
+  background-position: -26em -28em;
+}
+.fa-sort-down,
+.fa-sort-asc {
+  background-position: -18em -28em;
+}
+.fa-sort-up,
+.fa-sort-desc {
+  background-position: -20em -28em;
+}
+.fa-envelope {
+  background-position: -34em -10em;
+}
+.fa-linkedin {
+  background-position: -2em -20em;
+}
+.fa-rotate-left,
+.fa-undo {
+  background-position: -10em -34em;
+}
+.fa-legal,
+.fa-gavel {
+  background-position: -38em -14em;
+}
+.fa-dashboard,
+.fa-tachometer {
+  background-position: -28em -30em;
+}
+.fa-comment-o {
+  background-position: -34em -8em;
+}
+.fa-comments-o {
+  background-position: -38em -8em;
+}
+.fa-flash,
+.fa-bolt {
+  background-position: -14em -4em;
+}
+.fa-sitemap {
+  background-position: -4em -28em;
+}
+.fa-umbrella {
+  background-position: -6em -34em;
+}
+.fa-paste,
+.fa-clipboard {
+  background-position: -12em -8em;
+}
+.fa-lightbulb-o {
+  background-position: -36em -18em;
+}
+.fa-exchange {
+  background-position: 0 -12em;
+}
+.fa-cloud-download {
+  background-position: -16em -8em;
+}
+.fa-cloud-upload {
+  background-position: -18em -8em;
+}
+.fa-user-md {
+  background-position: -20em -34em;
+}
+.fa-stethoscope {
+  background-position: -10em -30em;
+}
+.fa-suitcase {
+  background-position: -18em -30em;
+}
+.fa-bell-o {
+  background-position: -4em -4em;
+}
+.fa-coffee {
+  background-position: -26em -8em;
+}
+.fa-cutlery {
+  background-position: -14em -10em;
+}
+.fa-file-text-o {
+  background-position: -32em -12em;
+}
+.fa-building-o {
+  background-position: -28em -4em;
+}
+.fa-hospital-o {
+  background-position: 0 -18em;
+}
+.fa-ambulance {
+  background-position: -12em 0;
+}
+.fa-medkit {
+  background-position: -38em -20em;
+}
+.fa-fighter-jet {
+  background-position: -28em -12em;
+}
+.fa-beer {
+  background-position: -2em -4em;
+}
+.fa-h-square {
+  background-position: -20em -16em;
+}
+.fa-plus-square {
+  background-position: -18em -24em;
+}
+.fa-angle-double-left {
+  background-position: -20em 0;
+}
+.fa-angle-double-right {
+  background-position: -22em 0;
+}
+.fa-angle-double-up {
+  background-position: -24em 0;
+}
+.fa-angle-double-down {
+  background-position: -18em 0;
+}
+.fa-angle-left {
+  background-position: -28em 0;
+}
+.fa-angle-right {
+  background-position: -30em 0;
+}
+.fa-angle-up {
+  background-position: -32em 0;
+}
+.fa-angle-down {
+  background-position: -26em 0;
+}
+.fa-desktop {
+  background-position: -16em -10em;
+}
+.fa-laptop {
+  background-position: -26em -18em;
+}
+.fa-tablet {
+  background-position: -26em -30em;
+}
+.fa-mobile-phone,
+.fa-mobile {
+  background-position: -14em -22em;
+}
+.fa-circle-o {
+  background-position: -8em -8em;
+}
+.fa-quote-left {
+  background-position: -34em -24em;
+}
+.fa-quote-right {
+  background-position: -36em -24em;
+}
+.fa-spinner {
+  background-position: -28em -28em;
+}
+.fa-circle {
+  background-position: -10em -8em;
+}
+.fa-mail-reply,
+.fa-reply {
+  background-position: -6em -26em;
+}
+.fa-github-alt {
+  background-position: -4em -16em;
+}
+.fa-folder-o {
+  background-position: -20em -14em;
+}
+.fa-folder-open-o {
+  background-position: -22em -14em;
+}
+.fa-smile-o {
+  background-position: -8em -28em;
+}
+.fa-frown-o {
+  background-position: -34em -14em;
+}
+.fa-meh-o {
+  background-position: 0 -22em;
+}
+.fa-gamepad {
+  background-position: -36em -14em;
+}
+.fa-keyboard-o {
+  background-position: -22em -18em;
+}
+.fa-flag-o {
+  background-position: -10em -14em;
+}
+.fa-flag-checkered {
+  background-position: -8em -14em;
+}
+.fa-terminal {
+  background-position: -36em -30em;
+}
+.fa-code {
+  background-position: -24em -8em;
+}
+.fa-reply-all {
+  background-position: -30em -20em;
+}
+.fa-mail-reply-all {
+  background-position: -30em -20em;
+}
+.fa-star-half-empty,
+.fa-star-half-full,
+.fa-star-half-o {
+  background-position: -38em -28em;
+}
+.fa-location-arrow {
+  background-position: -14em -20em;
+}
+.fa-crop {
+  background-position: -8em -10em;
+}
+.fa-code-fork {
+  background-position: -22em -8em;
+}
+.fa-unlink,
+.fa-chain-broken {
+  background-position: -20em -6em;
+}
+.fa-question {
+  background-position: -32em -24em;
+}
+.fa-info {
+  background-position: -10em -18em;
+}
+.fa-exclamation {
+  background-position: -6em -12em;
+}
+.fa-superscript {
+  background-position: -22em -30em;
+}
+.fa-subscript {
+  background-position: -16em -30em;
+}
+.fa-eraser {
+  background-position: -36em -10em;
+}
+.fa-puzzle-piece {
+  background-position: -26em -24em;
+}
+.fa-microphone {
+  background-position: -4em -22em;
+}
+.fa-microphone-slash {
+  background-position: -2em -22em;
+}
+.fa-shield {
+  background-position: -34em -26em;
+}
+.fa-calendar-o {
+  background-position: -34em -4em;
+}
+.fa-fire-extinguisher {
+  background-position: -4em -14em;
+}
+.fa-rocket {
+  background-position: -12em -26em;
+}
+.fa-maxcdn {
+  background-position: -36em -20em;
+}
+.fa-chevron-circle-left {
+  background-position: -34em -6em;
+}
+.fa-chevron-circle-right {
+  background-position: -36em -6em;
+}
+.fa-chevron-circle-up {
+  background-position: -38em -6em;
+}
+.fa-chevron-circle-down {
+  background-position: -32em -6em;
+}
+.fa-html5 {
+  background-position: -2em -18em;
+}
+.fa-css3 {
+  background-position: -12em -10em;
+}
+.fa-anchor {
+  background-position: -14em 0;
+}
+.fa-unlock-alt {
+  background-position: -12em -34em;
+}
+.fa-bullseye {
+  background-position: -32em -4em;
+}
+.fa-ellipsis-h {
+  background-position: -28em -10em;
+}
+.fa-ellipsis-v {
+  background-position: -30em -10em;
+}
+.fa-rss-square {
+  background-position: -14em -26em;
+}
+.fa-play-circle {
+  background-position: -10em -24em;
+}
+.fa-ticket {
+  background-position: -18em -32em;
+}
+.fa-minus-square {
+  background-position: -10em -22em;
+}
+.fa-minus-square-o {
+  background-position: -8em -22em;
+}
+.fa-level-up {
+  background-position: -34em -18em;
+}
+.fa-level-down {
+  background-position: -32em -18em;
+}
+.fa-check-square {
+  background-position: -28em -6em;
+}
+.fa-pencil-square {
+  background-position: -32em -22em;
+}
+.fa-external-link-square {
+  background-position: -10em -12em;
+}
+.fa-share-square {
+  background-position: -30em -26em;
+}
+.fa-compass {
+  background-position: -2em -10em;
+}
+.fa-toggle-down,
+.fa-caret-square-o-down {
+  background-position: -8em -6em;
+}
+.fa-toggle-up,
+.fa-caret-square-o-up {
+  background-position: -14em -6em;
+}
+.fa-toggle-right,
+.fa-caret-square-o-right {
+  background-position: -12em -6em;
+}
+.fa-euro,
+.fa-eur {
+  background-position: -38em -10em;
+}
+.fa-gbp {
+  background-position: 0 -16em;
+}
+.fa-dollar,
+.fa-usd {
+  background-position: -18em -34em;
+}
+.fa-rupee,
+.fa-inr {
+  background-position: -12em -18em;
+}
+.fa-cny,
+.fa-rmb,
+.fa-yen,
+.fa-jpy {
+  background-position: -18em -18em;
+}
+.fa-ruble,
+.fa-rouble,
+.fa-rub {
+  background-position: -18em -26em;
+}
+.fa-won,
+.fa-krw {
+  background-position: -24em -18em;
+}
+.fa-bitcoin,
+.fa-btc {
+  background-position: -24em -4em;
+}
+.fa-file {
+  background-position: -36em -12em;
+}
+.fa-file-text {
+  background-position: -34em -12em;
+}
+.fa-sort-alpha-asc {
+  background-position: -10em -28em;
+}
+.fa-sort-alpha-desc {
+  background-position: -12em -28em;
+}
+.fa-sort-amount-asc {
+  background-position: -14em -28em;
+}
+.fa-sort-amount-desc {
+  background-position: -16em -28em;
+}
+.fa-sort-numeric-asc {
+  background-position: -22em -28em;
+}
+.fa-sort-numeric-desc {
+  background-position: -24em -28em;
+}
+.fa-thumbs-up {
+  background-position: -16em -32em;
+}
+.fa-thumbs-down {
+  background-position: -10em -32em;
+}
+.fa-youtube-square {
+  background-position: -12em -36em;
+}
+.fa-youtube {
+  background-position: -14em -36em;
+}
+.fa-xing {
+  background-position: -8em -36em;
+}
+.fa-xing-square {
+  background-position: -6em -36em;
+}
+.fa-youtube-play {
+  background-position: -10em -36em;
+}
+.fa-dropbox {
+  background-position: -24em -10em;
+}
+.fa-stack-overflow {
+  background-position: -36em -28em;
+}
+.fa-instagram {
+  background-position: -14em -18em;
+}
+.fa-flickr {
+  background-position: -16em -14em;
+}
+.fa-adn {
+  background-position: -2em 0;
+}
+.fa-bitbucket {
+  background-position: -10em -4em;
+}
+.fa-bitbucket-square {
+  background-position: -8em -4em;
+}
+.fa-tumblr {
+  background-position: 0 -34em;
+}
+.fa-tumblr-square {
+  background-position: -38em -32em;
+}
+.fa-long-arrow-down {
+  background-position: -18em -20em;
+}
+.fa-long-arrow-up {
+  background-position: -24em -20em;
+}
+.fa-long-arrow-left {
+  background-position: -20em -20em;
+}
+.fa-long-arrow-right {
+  background-position: -22em -20em;
+}
+.fa-apple {
+  background-position: -34em 0;
+}
+.fa-windows {
+  background-position: -2em -36em;
+}
+.fa-android {
+  background-position: -16em 0;
+}
+.fa-linux {
+  background-position: -4em -20em;
+}
+.fa-dribbble {
+  background-position: -22em -10em;
+}
+.fa-skype {
+  background-position: -6em -28em;
+}
+.fa-foursquare {
+  background-position: -32em -14em;
+}
+.fa-trello {
+  background-position: -30em -32em;
+}
+.fa-female {
+  background-position: -26em -12em;
+}
+.fa-male {
+  background-position: -32em -20em;
+}
+.fa-gittip {
+  background-position: -10em -16em;
+}
+.fa-sun-o {
+  background-position: -20em -30em;
+}
+.fa-moon-o {
+  background-position: -18em -22em;
+}
+.fa-archive {
+  background-position: -36em 0;
+}
+.fa-bug {
+  background-position: -26em -4em;
+}
+.fa-vk {
+  background-position: -30em -34em;
+}
+.fa-weibo {
+  background-position: -38em -34em;
+}
+.fa-renren {
+  background-position: -2em -26em;
+}
+.fa-pagelines {
+  background-position: -24em -22em;
+}
+.fa-stack-exchange {
+  background-position: -34em -28em;
+}
+.fa-arrow-circle-o-right {
+  background-position: -6em -2em;
+}
+.fa-arrow-circle-o-left {
+  background-position: -4em -2em;
+}
+.fa-toggle-left,
+.fa-caret-square-o-left {
+  background-position: -10em -6em;
+}
+.fa-dot-circle-o {
+  background-position: -18em -10em;
+}
+.fa-wheelchair {
+  background-position: 0 -36em;
+}
+.fa-vimeo-square {
+  background-position: -28em -34em;
+}
+.fa-turkish-lira,
+.fa-try {
+  background-position: -36em -32em;
+}
+.fa-plus-square-o {
+  background-position: -16em -24em;
+}
